@@ -1,0 +1,9 @@
+Parent PID=3282, PPID=3252
+Child PID=3283, PPID=3282
+File content: Created by child process.
+Child executing ls -l
+total 28
+-rw-r----- 1 abhishek abhishek    26 Oct  3 15:35 process_output.txt
+-rwxr-xr-x 1 abhishek abhishek 16592 Oct  3 15:35 system_calls
+-rw-r--r-- 1 abhishek abhishek   115 Oct  3 15:35 terminal_output.txt
+Child 3283 exited with status 0

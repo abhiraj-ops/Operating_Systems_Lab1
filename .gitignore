@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.vscode/
+Lab1/Q1_System_Calls/output/system_calls
+Lab1/Q4_Metrics_Threads_IPC/output/thread_metrics_IPC

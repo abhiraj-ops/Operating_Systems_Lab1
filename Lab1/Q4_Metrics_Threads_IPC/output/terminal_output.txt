@@ -1,0 +1,8 @@
+Thread-1: step 1
+Thread-1: step 2
+Thread-1: step 3
+Thread-2: step 1
+Thread-2: step 2
+Thread-2: step 3
+Child received: Message from parent process
+Threads and pipe demonstration completed.
