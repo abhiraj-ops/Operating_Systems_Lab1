@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "OS Lab: debug system_calls (C)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lab1/Q1_System_Calls/output/system_calls",
+      "cwd": "${workspaceFolder}/Lab1/Q1_System_Calls/output",
+      "MIMode": "gdb",
+      "preLaunchTask": "OS Lab: build all",
+      "externalConsole": false,
+      "stopAtEntry": false,
+      "setupCommands": [
+        {
+          "description": "Enable pretty printing",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    },
+    {
+      "name": "OS Lab: debug thread_metrics_IPC (C)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lab1/Q4_Metrics_Threads_IPC/output/thread_metrics_IPC",
+      "cwd": "${workspaceFolder}/Lab1/Q4_Metrics_Threads_IPC/output",
+      "MIMode": "gdb",
+      "preLaunchTask": "OS Lab: build all",
+      "externalConsole": false,
+      "stopAtEntry": false
+    },
+    {
+      "name": "OS Lab: debug scheduling simulation (Python)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/Lab1/Q2_FCFS_SJF/src/FCFS_SJF.py",
+      "cwd": "${workspaceFolder}/Lab1/Q2_FCFS_SJF/src",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+# =============================================================================
+# Operating Systems Lab - line endings
+# =============================================================================
+# Text is normalised in the repository and checked out with the platform's
+# native endings, except for the files that are executed inside the Ubuntu
+# dev container: those MUST stay LF or bash refuses to run them.
+# =============================================================================
+
+* text=auto
+
+# Executed by bash inside the container (post-create.sh / post-start.sh).
+*.sh text eol=lf
+
+# Make recipes break when the Makefile carries CRLF endings.
+Makefile text eol=lf
+
+# Sources and configuration.
+*.c text
+*.h text
+*.py text
+*.yml text
+*.yaml text
+*.json text
+*.md text
+*.txt text
