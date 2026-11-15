@@ -1,0 +1,25 @@
+
+FCFS
+Path: [53, 98, 183, 37, 122, 14, 124, 65, 67]
+Total movement: 640
+Average per request: 80.0
+
+SSTF
+Path: [53, 65, 67, 37, 14, 98, 122, 124, 183]
+Total movement: 236
+Average per request: 29.5
+
+SCAN
+Path: [53, 65, 67, 98, 122, 124, 183, 199, 37, 14]
+Total movement: 331
+Average per request: 41.38
+
+C-SCAN
+Path: [53, 65, 67, 98, 122, 124, 183, 199, 0, 14, 37]
+Total movement: 382
+Average per request: 47.75
+
+Allocate P1: True [1, 1, 1, 1, 0, 0, 0, 0, 0, 0]
+Allocate P2: True [1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Allocate P3: False [1, 1, 1, 1, 1, 1, 1, 1, 1, 0]
+Release P1: True [0, 0, 0, 0, 1, 1, 1, 1, 1, 0]

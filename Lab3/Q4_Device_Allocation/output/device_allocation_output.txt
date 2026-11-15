@@ -1,0 +1,17 @@
+P1 allocated Printer
+P2 queued for Printer
+P1 released Printer; P2 is now owner
+P3 submitted request to SharedDisk
+P4 submitted request to SharedDisk
+SharedDisk served P3
+SharedDisk served P4
+P5 submitted request to VirtualPrinter
+VirtualPrinter served P5
+Inserted A ['A']
+Inserted B ['A', 'B']
+Inserted C ['A', 'B', 'C']
+Buffer full ['A', 'B', 'C']
+Removed A ['B', 'C']
+Removed B ['C']
+Removed C []
+Buffer empty []

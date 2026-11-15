@@ -1,0 +1,6 @@
+Paging
+Page: 2 Offset: 452
+Physical: 8644
+
+Segmentation
+Physical: 5350

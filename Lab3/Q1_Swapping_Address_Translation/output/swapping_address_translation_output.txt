@@ -1,0 +1,21 @@
+
+First Fit
+Process Size Block
+P1       212  B2
+P2       417  B5
+P3       112  B2
+P4       426  Not allocated
+Original blocks: [100, 500, 200, 300, 600]
+Remaining blocks: [100, 176, 200, 300, 183]
+
+Worst Fit
+Process Size Block
+P1       212  B5
+P2       417  B2
+P3       112  B5
+P4       426  Not allocated
+Original blocks: [100, 500, 200, 300, 600]
+Remaining blocks: [100, 83, 200, 300, 276]
+
+Address translation
+Physical address = 1250
