@@ -63,21 +63,6 @@ Lab1/Q1_System_Calls/
 `make run` executes the C labs from inside their `output/` directory, so the files a lab creates
 stay next to the rest of that lab's output.
 
-## Lab 3 programs
-
-Memory management and disk management questions, one program per question:
-
-| Question | Program | Covers |
-| --- | --- | --- |
-| Q1 | `Lab3/Q1_Swapping_Address_Translation/src/swapping_address_translation.py` | First/best/worst fit allocation, base-limit address translation |
-| Q2 | `Lab3/Q2_Paging_Segmentation/src/paging_segmentation.py` | Paging (page table, frame, offset) and segmentation (base/limit) |
-| Q3 | `Lab3/Q3_FIFO_LRU/src/fifo_lru.py` | FIFO, LRU and optimal page replacement |
-| Q4 | `Lab3/Q4_Device_Allocation/src/device_allocation.py` | Dedicated, shared and virtual devices, buffering |
-| Q5 | `Lab3/Q5_FCFS_SSTF_SCAN_c-SCAN/src/disk_scheduling.py` | FCFS, SSTF, SCAN and C-SCAN disk scheduling, swap space bitmap |
-
-`make run` executes every program and stores its transcript in the matching
-`Lab3/Qn_*/output/` folder. `tests/test_lab3.py` checks the algorithms
-(`make test`).
 
 ## Continuous integration
 
